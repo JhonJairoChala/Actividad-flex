@@ -233,3 +233,719 @@ body{
     width: 100px;
     text-align: center;
 }
+
+@media (max-width:750px) {
+    body{
+        background-color: rgb(244, 244, 244);
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #24282b;
+        border-bottom: solid 5px #1293d4;
+    }
+    
+    .logo h1{
+        color: white;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .otros{
+        color: white;
+    }
+    
+    .manosE{
+        background: url(../images/cabecera.jpg) 0 -400px ;
+        background-size: cover;
+        height: 500px;
+    }
+    
+    .inicio{
+        color: blue;
+    }
+    
+    .expertos{
+        text-align: center;
+        font-size: 45px;
+        height: 668px;
+        color: white;
+    }
+    
+    .textoE{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -650px;
+    }
+    
+    .subscribete{
+        display: flex;
+        justify-content: space-around;
+        background-color: #24282b;
+        color: white;
+        height: 70px;
+    
+    }
+    
+    .correo{
+        margin-right: -450px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+    .correo2{
+        margin-left: -80px;
+        height: 30px;
+        margin-top: 19px;
+    }
+    
+    .labelS{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        margin-right: 15%;
+    }
+    
+    .labelN{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .textoS{
+        font-size: 25px;
+    }
+    
+    .titulosA{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .imagenesAbajo{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .textosAbajo{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .pNosotros{
+        display: flex;
+        align-items: center;
+        background-color: rgb(53, 66, 74);
+        color: white;
+        height: 100px;
+        border: solid 13px rgb(53, 66, 74);
+    }
+    
+    .contenedorN{
+        float: left;
+        margin-left: 5%;
+        margin-right: 45%;
+    }
+    
+    .contenedorN img{
+        width: 100%;
+    }
+    
+    .hacemos{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -51%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 30%;
+        margin-right: 5%;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    .pies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1293d4;
+        color: white;
+        height: 80px;
+    }
+    
+    .textoSE{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 230, 230);
+        width: 55%;
+        margin-left: 5%;
+        padding-left: 1%;
+        border-bottom: solid 5px white;
+        float: left;
+        padding-right: 4%;
+    }
+    
+    .se{
+        margin-left: 5%;
+    }
+    
+    .hacemos3{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -60%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 28%;
+        margin-right: 11%;
+    }
+    
+    .hacemos2{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -64%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 28%;
+        margin-right: 3%;
+    }
+    
+    .inputM{
+        height: 150px;
+        width: 50%;
+    }
+    
+    .inputC{
+        height: 30px;
+        width: 50%;
+    }
+    
+    .contacto{
+        margin-left: 10%;
+    }
+    
+    .mapa{
+        float: right;
+        height: 250px;
+        width: 30%;
+        margin-right: 11%;
+        margin-top: -15%;
+    }
+    
+    .enviar{
+        background-color: rgb(232, 73, 29);
+        text-align: center;
+        width: 46%;
+        height: 30px;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    
+    .enviar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .labelSE{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    body{
+        background-color: rgb(244, 244, 244);
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #24282b;
+        border-bottom: solid 5px #1293d4;
+    }
+    
+    .logo h1{
+        color: white;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .otros{
+        color: white;
+    }
+    
+    .manosE{
+        background: url(../images/cabecera.jpg) 0 -700px ;
+        background-size: cover;
+        height: 500px;
+    }
+    
+    .inicio{
+        color: blue;
+    }
+    
+    .expertos{
+        text-align: center;
+        font-size: 45px;
+        height: 668px;
+        color: white;
+    }
+    
+    .textoE{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -650px;
+    }
+    
+    .subscribete{
+        display: flex;
+        justify-content: space-around;
+        background-color: #24282b;
+        color: white;
+        height: 70px;
+    
+    }
+    
+    .correo{
+        margin-right: -555px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+    .correo2{
+        margin-left: -200px;
+        height: 30px;
+        margin-top: 19px;
+    }
+    
+    .labelS{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        margin-right: 15%;
+    }
+    
+    .labelN{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .textoS{
+        font-size: 25px;
+    }
+    
+    .titulosA{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .imagenesAbajo{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .textosAbajo{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .pNosotros{
+        display: flex;
+        align-items: center;
+        background-color: rgb(53, 66, 74);
+        color: white;
+        height: 100px;
+        border: solid 13px rgb(53, 66, 74);
+    }
+    
+    .contenedorN{
+        float: left;
+        margin-left: 5%;
+        margin-right: 45%;
+    }
+    
+    .contenedorN img{
+        width: 100%;
+    }
+    
+    .hacemos{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -41%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 30%;
+        margin-right: 5%;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    .pies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1293d4;
+        color: white;
+        height: 80px;
+    }
+    
+    .textoSE{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 230, 230);
+        width: 55%;
+        margin-left: 5%;
+        padding-left: 1%;
+        border-bottom: solid 5px white;
+        float: left;
+        padding-right: 4%;
+    }
+    
+    .se{
+        margin-left: 5%;
+    }
+    
+    .hacemos3{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -45%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 28%;
+        margin-right: 11%;
+    }
+    
+    .hacemos2{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -48%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 28%;
+        margin-right: 3%;
+    }
+    
+    .inputM{
+        height: 150px;
+        width: 50%;
+    }
+    
+    .inputC{
+        height: 30px;
+        width: 50%;
+    }
+    
+    .contacto{
+        margin-left: 10%;
+    }
+    
+    .mapa{
+        float: right;
+        height: 250px;
+        width: 30%;
+        margin-right: 11%;
+        margin-top: -22%;
+    }
+    
+    .enviar{
+        background-color: rgb(232, 73, 29);
+        text-align: center;
+        width: 46%;
+        height: 30px;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    
+    .enviar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .labelSE{
+        margin-top: 20px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+}
+@media (max-width:400px) {
+    body{
+        background-color: rgb(244, 244, 244);
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #24282b;
+        border-bottom: solid 5px #1293d4;
+    }
+    
+    .logo h1{
+        color: white;
+        text-align: center;
+    }
+    
+    .logo a{
+        text-decoration: none;
+    }
+    
+    .otros{
+        color: white;
+    }
+    
+    .manosE{
+        background: url(../images/cabecera.jpg) 0 -400px ;
+        background-size: cover;
+        height: 390px;
+    }
+    
+    .inicio{
+        color: blue;
+    }
+    
+    .expertos{
+        text-align: center;
+        font-size: 28px;
+        height: 668px;
+        color: white;
+        margin-top: -5%;
+    }
+    
+    .textoE{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    
+    .subscribete{
+        display: flex;
+        flex-direction: row;
+        background-color: #24282b;
+        color: white;
+        height: 100px;
+    }
+    
+    .correo{
+        margin-right: -400px;
+        height: 30px;
+        margin-top: 37px;
+    }
+    
+    .correo2{
+        margin-left: -85px;
+        height: 30px;
+        margin-top: 39px;
+    }
+    
+    .labelS{
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        margin-right: 50%;
+        margin-top: 10%;
+    }
+    
+    .labelN{
+        margin-top: 40px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        margin-right: -1%;
+    }
+    
+    .textoS{
+        font-size: 15px;
+        margin-top: 2%;
+        margin-right: -55%;
+    }
+    
+    .titulosA{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        margin-top: 15%;
+    }
+    
+    section img{
+        height: 110px;
+    }
+
+    .imagenesAbajo{
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+    }
+        
+    .textosAbajo{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .pNosotros{
+        display: flex;
+        align-items: center;
+        background-color: rgb(53, 66, 74);
+        color: white;
+        height: 200px;
+        font-size: 12px;
+        border: solid 13px rgb(53, 66, 74);
+    }
+
+    .textoM{
+        font-size: 13px;
+    }
+    
+    .contenedorN{
+        float: left;
+        margin-left: 5%;
+        margin-right: 45%;
+    }
+    
+    .contenedorN img{
+        width: 100%;
+        height: 10vh;
+    }
+    
+    .hacemos{
+        float: right;
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: -120%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 30%;
+        margin-right: 5%;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    .pies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1293d4;
+        color: white;
+        height: 80px;
+    }
+    
+    .textoSE{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 230, 230);
+        width: 55%;
+        margin-left: 5%;
+        padding-left: 1%;
+        border-bottom: solid 5px white;
+        float: left;
+        padding-right: 4%;
+    }
+    
+    .se{
+        margin-left: 5%;
+    }
+    
+    .hacemos3{
+        border: solid 10px rgb(53, 66, 74);
+        margin-top: 11%;
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 90%;
+        margin-right: -5%;
+    }
+    
+    .hacemos2{
+        border: solid 10px rgb(53, 66, 74);
+        background-color: rgb(53, 66, 74);
+        color:white;
+        width: 90%;
+        margin-top: 2%;
+    }
+    
+    .inputM{
+        height: 150px;
+        width: 90%;
+    }
+    
+    .inputC{
+        height: 30px;
+        width: 90%;
+    }
+    
+    .contacto{
+        margin-left: 10%;
+    }
+    
+    .mapa{
+        height: 250px;
+        width: 95%;
+        margin-right: 11%;
+        margin-top: 5%;
+    }
+    
+    .enviar{
+        background-color: rgb(232, 73, 29);
+        text-align: center;
+        width: 83%;
+        height: 30px;
+        
+    }
+    
+    .enviar a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .labelSE{
+        margin-top: 40px;
+        background-color: rgb(232, 73, 29);
+        height: 35px;
+        width: 100px;
+        text-align: center;
+    }
+}
